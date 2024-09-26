@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html style="margin: 0 !important;">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nuevo Bus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- CSS Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="css/vendors/flexslider.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- JS Scripts -->
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MQ5K3XH"></script>
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MQ5K3XH');
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0MSZPEHF0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-D0MSZPEHF0');
+    </script>
+
+    <!-- Modal Alignment Script -->
+    <script>
+        $(document).ready(function () {
+            function alignModal() {
+                var modalDialog = $(this).find(".modal-dialog");
+                modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
+            }
+            $(".modal").on("shown.bs.modal", alignModal);
+            $(window).on("resize", function () {
+                $(".modal:visible").each(alignModal);
+            });
+        });
+    </script>
+
+    <!-- Show Modal on Page Load -->
+    <script>
+        $(document).ready(function () {
+            $("#modalfono").modal('show');
+        });
+    </script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ5K3XH" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<!-- Top Bar -->
+<div class="top-bar hidden-xs">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <ul class="social">
+                <li><a href="https://www.linkedin.com/company/nuevobus/" target="_blank"><img src="img/social/in.svg" alt="LinkedIn"></a></li>
+                <li><a href="https://www.facebook.com/nuevobus" target="_blank"><img src="img/social/fb.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/nuevobus/" target="_blank"><img src="img/social/ig.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCnuevobus" target="_blank"><img src="img/social/yb.svg" alt="YouTube"></a></li>
+            </ul>
+            <p>Casa Central: Av. Vergara 6060, Hurlingham - Bs. As. (1686) - Tel. (+54 11) 5283-2900</p>
+            <a class="portal" href="/cargas">Viajes Disponibles</a>
+            <div class="portal">
+                <a href="#">Acceso al portal</a>
+                <div class="submenu">
+                    <div class="content">
+                        <ul>
+                            <li><a href="#" target="_blank">WMS</a></li>
+                            <li><a href="#" target="_blank">DP SAT</a></li>
+                            <li><a href="#" target="_blank">Seguimiento de Carga</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Nuevo Bus" class="img-responsive logo">
+            </a>
+            <a href="#" class="menu-icon visible-xs"><img src="img/menu.svg" alt="Menu"></a>
+            <ul class="nav hidden-xs">
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                    <div class="sublinks">
+                        <a href="nosotros.html#quienes-somos">Quiénes Somos</a>
+                        <a href="nosotros.html#dp">Nuevo Bus en Datos</a>
+                        <a href="nosotros.html#historia">Nuestra Historia</a>
+                        <a href="nosotros.html#fundacion">Fundación PS</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                    <div class="sublinks">
+                        <a href="transporte-logistica.html">Transporte y Logística</a>
+                        <a href="almacenamiento.html">Almacenamiento</a>
+                        <a href="maquinarias.html">Alquiler de Maquinarias</a>
+                        <a href="dpsat.html">DP SAT</a>
+                        <a href="desarrollos.html">Desarrollos a Medida</a>
+                        <a href="seguros.html">Seguros</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="seguros.html">Seguros</a>
+                    <div class="sublinks">
+                        <a href="seguros.html#patrimoniales">Patrimoniales</a>
+                        <a href="seguros.html#comerciales">Comerciales</a>
+                        <a href="seguros.html#industrias">Industrias</a>
+                        <a href="seguros.html#medicos">Médicos</a>
+                        <a href="seguros.html#mercaderia">Mercadería</a>
+                        <a href="seguros.html#hogar">Hogar</a>
+                        <a href="seguros.html#robo">Robo</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="dpsat.html">DP SAT</a>
+                </li>
+                <li>
+                    <a href="certificaciones.html">Certificaciones</a>
+                    <div class="sublinks">
+                        <a href="certificaciones.html#certificaciones">Certificaciones</a>
+                        <a href="certificaciones.html#camaras">Cámaras y entes adheridos</a>
+                        <a href="certificaciones.html#habilitaciones">Habilitaciones</a>
+                        <a href="certificaciones.html#permisos">Permisos Aduaneros</a>
+                        <a href="certificaciones.html#medioambiente">Medio Ambiente</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="sucursales.html">Sucursales</a>
+                </li>
+                <li>
+                    <a href="rrhh.html">Recursos Humanos</a>
+                    <div class="sublinks">
+                        <a href="rrhh.html#busquedas" class="notification"><span>Búsquedas</span><span class="badge"><img src="img/icons/bell.svg" alt="Notificaciones"></span></a>
+                        <a href="rrhh.html#cv">Carga tu CV</a>
+                        <a href="rrhh.html#capacitaciones">Capacitaciones</a>
+                        <a href="rrhh.html#politicas">Nuestras Políticas</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile visible-xs">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="index.html">
+                    <img src="img/logo-white.svg" alt="Nuevo Bus" class="img-responsive logo">
+                </a>
+                <a href="#" class="menu-icon visible-xs"><img src="img/menu-close.svg" alt="Cerrar Menú"></a>
+            </div>
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="seguros.html">Seguros</a></li>
+                <li><a href="dpsat.html">DP SAT</a></li>
+                <li><a href="certificaciones.html">Certificaciones</a></li>
+                <li><a href="sucursales.html">Sucursales</a></li>
+                <li><a href="rrhh.html">Recursos Humanos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <a class="portal-mobile" href="#">Accedé al portal</a>
+            <ul class="portal-mobile-items">
+                <li><a href="#" target="_blank">WMS</a></li>
+                <li><a href="#" target="_blank">DP SAT</a></li>
+                <li><a href="#" target="_blank">Seguimiento de Carga</a></li>
+                <li><a href="/cargas" target="_blank">Viajes disponibles</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="https://www.linkedin.com/company/nuevobus/" target="_blank"><img src="img/social/in.svg" alt="LinkedIn"></a></li>
+                <li><a href="https://www.facebook.com/nuevobus" target="_blank"><img src="img/social/fb.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/nuevobus/" target="_blank"><img src="img/social/ig.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCnuevobus" target="_blank"><img src="img/social/yb.svg" alt="YouTube"></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- Back to Top and WhatsApp -->
+<div class="back-top visible-xs"></div>
+<a target="_blank" href="http://api.whatsapp.com/send?phone=5491121667162" class="whatsapp"></a>
+
+<!-- Main Content -->
+<div class="page-home">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider flexslider">
+            <ul class="slides">
+                <li><img src="img/heros/Slide-home/Slide-1.jpg" alt="Slide 1"></li>
+                <li><img src="img/heros/Slide-home/Slide-2.jpg" alt="Slide 2"></li>
+                <li><img src="img/heros/Slide-home/Slide-3.jpg" alt="Slide 3"></li>
+                <li><img src="img/heros/Slide-home/Slide-4.jpg" alt="Slide 4"></li>
+                <li><img src="img/heros/Slide-home/Slide-5.jpg" alt="Slide 5"></li>
+            </ul>
+        </div>
+        <div class="scroll"></div>
+    </section>
+
+    <!-- Filosofía Section -->
+    <section class="filosofia">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="title">Nuestra <b>Filosofía</b></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="tag">Visión</div>
+                        <p>Convertirnos en una empresa líder en el mercado de Transporte y Logística del Mercosur, apuntando siempre al cumplimiento de nuestra misión: la satisfacción del cliente.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="tag">Misión</div>
+                        <p>Ofrecer a todos nuestros clientes la más amplia gama de servicios y la posibilidad de adecuarlos a sus necesidades. Cumpliendo con los más altos estándares de calidad y seguridad. Promover el crecimiento y desarrollo, personal y profesional, de nuestros colaboradores.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="tag">Valores</div>
+                        <p>
+                            Ética Laboral.<br>
+                            Honestidad e Integridad.<br>
+                            Compromiso y Responsabilidad Social.<br>
+                            Eficiencia Profesional.<br>
+                            Bienestar Institucional.<br>
+                            Cuidado del medio ambiente.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <a class="btn red" href="nosotros.html">Conocé más sobre nosotros</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluciones Integrales Section -->
+    <section class="soluciones gray-bg internal-pd">
+        <h2 class="title text-center">Brindamos <b>Soluciones Integrales</b></h2>
+        <div class="soluciones-slider flexslider">
+            <ul class="slides">
+                <li>
+                    <a href="transporte-logistica.html" class="solucion small">
+                        <img src="img/soluciones/transporte-logistica.png" alt="Transporte y Logística">
+                        <div class="content">
+                            <h3 class="title">Transporte y Logística</h3>
+                            <p>Desarrollamos servicios integrales y a la vez flexibles, que representan soluciones a medida; de la forma más económica, rápida y eficiente.</p>
+                            <div class="btn blue small">Explorar</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="almacenamiento.html" class="solucion small">
+                        <img src="img/soluciones/almacenamiento.png" alt="Almacenamiento">
+                        <div class="content">
+                            <h3 class="title">Almacenamiento</h3>
+                            <p>Contamos con una sólida infraestructura, depósitos propios estratégicamente ubicados y un sistema de gestión de recursos.</p>
+                            <div class="btn blue small">Explorar</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="maquinarias.html" class="solucion small">
+                        <img src="img/soluciones/maquinarias.png" alt="Alquiler de Maquinarias">
+                        <div class="content">
+                            <h3 class="title">Alquiler de Maquinarias</h3>
+                            <p>Servicio de provisión de equipos, con una amplia variedad, para el desarrollo de distintas actividades.</p>
+                            <div class="btn blue small">Explorar</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="dpsat.html" class="solucion small">
+                        <img src="img/soluciones/dp-sat.png" alt="DP SAT">
+                        <div class="content">
+                            <h3 class="title">DP SAT</h3>
+                            <p>Sistema satelital de desarrollo propio. El mismo permite tener el control completo de la seguridad de las unidades.</p>
+                            <div class="btn blue small">Explorar</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="desarrollos.html" class="solucion small">
+                        <img src="img/soluciones/desarrollo.png" alt="Desarrollos a Medida">
+                        <div class="content">
+                            <h3 class="title">Desarrollos a Medida</h3>
+                            <p>Gestionamos recursos específicos para cumplir con cada una de las necesidades de nuestros clientes.</p>
+                            <div class="btn blue small">Explorar</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="seguros.html" class="solucion small">
+                        <img src="img/soluciones/seguros.png" alt="Seguros Nuevo Bus">
+                        <div class="content">
+                            <h3 class="title">Seguros Nuevo Bus</h3>
+                            <p>Asesoramiento integral y administración de riesgos, para empresas e individuos.</p>
+                            <div class="btn blue small">Explorar</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Calidad de Servicio Section -->
+    <section class="calidad">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="title">Confiá en <b>nuestra Calidad de Servicio</b></h2>
+                    <p>Nos avalan años de trayectoria en el mercado, que se transmiten en altos estándares de calidad en la gestión de transporte y logística. Contamos con diferentes tipos de certificaciones vigentes que respaldan nuestra actividad.</p>
+                    <a class="btn red hidden-xs" href="certificaciones.html">Leer más</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion accordion-flush" id="accordionCalidad">
+                        <!-- Certificaciones -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingCertificaciones">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCertificaciones" aria-expanded="false" aria-controls="collapseCertificaciones">
+                                    Certificaciones
+                                </button>
+                            </h2>
+                            <div id="collapseCertificaciones" class="accordion-collapse collapse" aria-labelledby="headingCertificaciones" data-bs-parent="#accordionCalidad">
+                                <div class="accordion-body">
+                                    <div class="d-flex align-items-center justify-content-evenly">
+                                        <img src="img/acordeon/certificaciones/1.png" alt="Certificación 1" width="208">
+                                        <img src="img/acordeon/certificaciones/2.png" alt="Certificación 2" width="245">
+                                        <img src="img/acordeon/certificaciones/3.png" alt="Certificación 3" width="220">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cámaras y entes adheridos -->
+                        <!-- (Resto de los elementos del acordeón, asegurándose de que todas las imágenes estén correctamente referenciadas) -->
+                    </div>
+                    <div class="visible-xs mt-5 text-center">
+                        <a class="btn red" href="certificaciones.html">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="banner-slider flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/dpsat-banner.png" alt="DP SAT">
+                    <div class="slide-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-lg-6 col-xl-4">
+                                    <div class="eyebrow">Conocé DP SAT</div>
+                                    <h2 class="title">Monitoreamos tu flota de manera inteligente</h2>
+                                    <a class="btn red" href="dpsat.html">Quiero saber más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Agregar más slides según sea necesario -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sucursales Map Section -->
+    <!-- Aquí debes incluir la sección completa de sucursales, asegurándote de que todas las imágenes y enlaces estén correctos -->
+
+    <!-- Busquedas Inicio Section -->
+    <section class="busquedas-inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="map-title">Unite al <b>equipo #NuevoBus</b></div>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-end">
+                    <a class="btn white" href="rrhh.html#busquedas">Ver todas las ofertas laborales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="contacto internal-pd">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="title"><b>¡Hablemos!</b></h2>
+                    <a href="tel:(+5411)52832900">(+5411) 5283-2900</a>
+                    <a href="mailto:consultas@nuevobus.com.ar"><b>consultas@nuevobus.com.ar</b></a>
+                    <ul class="social circles">
+                        <li><a href="https://www.linkedin.com/company/nuevobus/" target="_blank"><img src="img/social/in-blue.svg" alt="LinkedIn"></a></li>
+                        <li><a href="https://www.facebook.com/nuevobus" target="_blank"><img src="img/social/fb-blue.svg" alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/nuevobus/" target="_blank"><img src="img/social/ig-blue.svg" alt="Instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCnuevobus" target="_blank"><img src="img/social/yb-blue.svg" alt="YouTube"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <p>Para nosotros es importante escucharte y saber de vos. Te invitamos a que dejes tu consulta, duda o sugerencia.</p>
+                    <form method="post" action="#" id="contactForm">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" type="email" class="form-control" placeholder="tuemail@gmail.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <select name="asunto" id="asunto" class="form-select" required>
+                                <option value="Consultas" selected>Consultas</option>
+                                <option value="Código de Ética">Código de Ética</option>
+                                <option value="Cotizaciones">Cotizaciones</option>
+                                <option value="DP SAT">DP SAT</option>
+                                <option value="Recursos Humanos">Recursos Humanos</option>
+                                <option value="Seguros">Seguros</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="detalle" class="form-label">Mensaje</label>
+                            <textarea name="detalle" id="detalle" class="form-control" placeholder="¿En qué podemos ayudarte?" rows="5" required></textarea>
+                        </div>
+                        <div class="mt-3">
+                            <input type="submit" value="Enviar" class="btn blue">
+                        </div>
+                    </form>
+                    <div id="successMessage" class="hidden">
+                        <p>¡Tu email fue enviado! Te responderemos a la brevedad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Partners Section -->
+<section class="partners">
+    <div class="container">
+        <div class="partners-slider flexslider">
+            <ul class="slides">
+                <!-- Asegúrate de incluir todas las imágenes de los partners correctamente -->
+                <li><img src="img/partners/1.png" alt="Partner 1"></li>
+                <li><img src="img/partners/2.png" alt="Partner 2"></li>
+                <!-- Continúa con el resto de los partners -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="gray-bg">
+    <div class="container">
+        <div class="links">
+            <!-- Sección de enlaces del footer, asegurándote de que todas las referencias sean correctas -->
+            <!-- ... -->
+        </div>
+        <div class="text-center">
+            <img src="img/logo-footer.svg" class="logo" alt="Nuevo Bus">
+            <p>© 2023 Nuevo Bus. Todos los derechos reservados. <a href="politicas-privacidad.html">Políticas de Privacidad</a></p>
+            <ul class="social circles">
+                <li><a href="https://www.linkedin.com/company/nuevobus/" target="_blank"><img src="img/social/in-blue.svg" alt="LinkedIn"></a></li>
+                <li><a href="https://www.facebook.com/nuevobus" target="_blank"><img src="img/social/fb-blue.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/nuevobus/" target="_blank"><img src="img/social/ig-blue.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCnuevobus" target="_blank"><img src="img/social/yb-blue.svg" alt="YouTube"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="js/vendors/jquery.flexslider.js"></script>
+<script src="js/vendors/jquery.numscroll.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/rrhh.js"></script>
+</body>
+</html>

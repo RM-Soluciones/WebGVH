@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce09e867-29d5-46d0-93ce-5fbce1ee0d04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/certificaciones/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/certificaciones/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/certificaciones/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/habilitaciones/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/habilitaciones/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/acordeon/habilitaciones/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dpsat-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/heros/Slide-home/Slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/heros/Slide-home/Slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/heros/Slide-home/Slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/heros/Slide-home/Slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/heros/Slide-home/Slide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/fb-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/ig-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/ig.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/in-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/yb-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sociales/yb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soluciones/almacenamiento.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soluciones/desarrollo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soluciones/dp-sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soluciones/maquinarias.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soluciones/seguros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soluciones/transporte-logistica.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RM-Soluciones&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RM-Soluciones/WebGVH.git&quot;,
+    &quot;accountId&quot;: &quot;585bb389-83e2-450a-89a7-48a3c23dce63&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mWaxWD1pVq0gSkml6dETt9wq62" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/DevOps/WebstormProjects/ProyectosGVH/WebGVH/img/soluciones",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propDebugger",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\soluciones" />
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\partners" />
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\icons" />
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\heros\Slide-home" />
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\acordeon\habilitaciones" />
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\acordeon\certificaciones" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce09e867-29d5-46d0-93ce-5fbce1ee0d04" name="Changes" comment="" />
+      <created>1727195032826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727195032826</updated>
+      <workItem from="1727195033960" duration="7793000" />
+      <workItem from="1727287843405" duration="2712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
