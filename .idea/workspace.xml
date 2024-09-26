@@ -5,6 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce09e867-29d5-46d0-93ce-5fbce1ee0d04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/back-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/btn-arrow-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/envelope-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/flex-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/flex-prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/hero-scroll-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/hero-scroll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/location-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/phone-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/vendors/flexslider.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/acordeon/camaras/3.png" afterDir="false" />
@@ -27,6 +43,9 @@
       <change afterPath="$PROJECT_DIR$/img/logo-footer.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/logo-white.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/partners/1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/partners/10.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/partners/11.png" afterDir="false" />
@@ -55,20 +74,27 @@
       <change afterPath="$PROJECT_DIR$/img/partners/7.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/partners/8.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/partners/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/fb-blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/fb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/ig-blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/ig.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/in-blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/yb-blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sociales/yb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-de.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-rrhh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/fb-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/ig-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/ig.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/in-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/yb-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/yb.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/soluciones/almacenamiento.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/soluciones/desarrollo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/soluciones/dp-sat.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/soluciones/maquinarias.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/soluciones/seguros.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/soluciones/transporte-logistica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/rrhh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendors/jquerry.flexsliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendors/jquerry.numscroll.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,33 +134,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/DevOps/WebstormProjects/ProyectosGVH/WebGVH/img/soluciones",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propDebugger",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DevOps/WebstormProjects/ProyectosGVH/WebGVH/img/soluciones&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propDebugger&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\soluciones" />
       <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\heros" />
+      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img" />
       <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\partners" />
       <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\icons" />
       <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\heros\Slide-home" />
-      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\acordeon\habilitaciones" />
-      <recent name="C:\Users\DevOps\WebstormProjects\ProyectosGVH\WebGVH\img\acordeon\certificaciones" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -153,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727195032826</updated>
       <workItem from="1727195033960" duration="7793000" />
-      <workItem from="1727287843405" duration="2712000" />
+      <workItem from="1727287843405" duration="6447000" />
+      <workItem from="1727362967735" duration="17000" />
     </task>
     <servers />
   </component>
